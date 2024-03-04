@@ -1,0 +1,87 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "UrlExtractor/1.0.0": {
+        "dependencies": {
+          "CsvHelper": "31.0.2",
+          "System.Drawing.Common": "9.0.0-preview.1.24081.2"
+        },
+        "runtime": {
+          "UrlExtractor.dll": {}
+        }
+      },
+      "CsvHelper/31.0.2": {
+        "runtime": {
+          "lib/net8.0/CsvHelper.dll": {
+            "assemblyVersion": "31.0.0.0",
+            "fileVersion": "31.0.2.15"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/9.0.0-preview.1.24080.9": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.8009"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.8009"
+          }
+        }
+      },
+      "System.Drawing.Common/9.0.0-preview.1.24081.2": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "9.0.0-preview.1.24080.9"
+        },
+        "runtime": {
+          "lib/net8.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.8102"
+          },
+          "lib/net8.0/System.Private.Windows.Core.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.8102"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UrlExtractor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CsvHelper/31.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ndlIN77XcFm6qqGlNPzl0XjVupMCBVhVSiO+1+X2UhJtnnvkx9f//7FOvlkLuEQ76NC3Y7owa8IOhgtKVa4H7Q==",
+      "path": "csvhelper/31.0.2",
+      "hashPath": "csvhelper.31.0.2.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/9.0.0-preview.1.24080.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qAZNqGvPrWzrTBzPhWm2J0kHRDDYq9EZk+xTW6Z7VuM5+4yh4XN0SHrjsSeoHvTcSrSV7IBp9HS8R9W+oQ9Geg==",
+      "path": "microsoft.win32.systemevents/9.0.0-preview.1.24080.9",
+      "hashPath": "microsoft.win32.systemevents.9.0.0-preview.1.24080.9.nupkg.sha512"
+    },
+    "System.Drawing.Common/9.0.0-preview.1.24081.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zmP6qRu9oxbeYXHlwT//oQE56CNlsToBFg+9F8Lcrqsh6A7MVSppqBeCrIjtCFeOBxil2OS1DdPfv4WncIA8Pg==",
+      "path": "system.drawing.common/9.0.0-preview.1.24081.2",
+      "hashPath": "system.drawing.common.9.0.0-preview.1.24081.2.nupkg.sha512"
+    }
+  }
+}

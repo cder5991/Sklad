@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "o3/LNqyA6FN24N/H8/LwIQR0U1DTYwpQX1csFcveooYRNpoRloIAMpYjGOpW1I2A6p358Vp8+Tbv7V1I/BSjQg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Yaroslav.Ryda\\RiderProjects\\UrlExtractor\\UrlExtractor\\UrlExtractor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Yaroslav.Ryda\\.nuget\\packages\\csvhelper\\31.0.2\\csvhelper.31.0.2.nupkg.sha512",
+    "C:\\Users\\Yaroslav.Ryda\\.nuget\\packages\\microsoft.win32.systemevents\\9.0.0-preview.1.24080.9\\microsoft.win32.systemevents.9.0.0-preview.1.24080.9.nupkg.sha512",
+    "C:\\Users\\Yaroslav.Ryda\\.nuget\\packages\\system.drawing.common\\9.0.0-preview.1.24081.2\\system.drawing.common.9.0.0-preview.1.24081.2.nupkg.sha512"
+  ],
+  "logs": []
+}
